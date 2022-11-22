@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+.hero-section{
+    height:500px;
+    background-image: url(../../assets/img/zapatillas-hero-background.jpg);
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+    padding-top: 7.5em;
+    font-style: italic;
+}
+
+.hero-section .logo-hero-section{
+    margin-bottom: 25px;
+}
+
+.hero-section h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-section p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn.product-btn, .btn.hero-btn{
+    background-color: #000;
+    color: #fff;
+    margin-top: 21px;
+    font-weight: 700;
+    font-style: italic;
+    font-size:18px;
+}
+
+.btn.product-btn{
+    font-size: 14px;
+}
+
+.featured-products-section{
+    width: 100%;
+    padding: 65px 0 120px 0;
+}
+
+.featured-products-section .featured-products-title{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    color: #D41B20;
+}
+
+.products{
+    width:100%;
+}
+
+.products .product{
+    display: inline-block;
+    width: 31.1%;
+    padding: 25px;
+    margin: 0 2% 2% 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.07);
+    text-align: center;
+}
+
+.products .product:nth-child(3){
+    margin: 0 0 2% 0;
+}
+
+.products .product.out-of-stock{
+    opacity: .3;
+}
+
+.products .product .product-featured-image{
+    margin-bottom: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.products .product .product-name{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.products .product .product-price{
+    font-size:18px;
+    color: #555
+}
+
+#main-footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 45px 0 15px 0;
+}
+
+#main-footer .social-list{
+    list-style:none;
+    padding:0;
+    margin:32px 0;
+}
+
+#main-footer .social-list li{
+    margin:0 8px;
+    display: inline-block;
+}
+
+
+#main-footer .social-list img{
+    width: 28px;
+    height: auto;
+}
+
+#main-footer .colophon{
+    margin-top: 15px;
+    font-size:14px;
+    color:#555;
+}
+
